@@ -1,20 +1,17 @@
 body {
-    background-image: url(white_wall_hash.png);
-    font: 16px Monaco,Consolas,'Courier New',monospace;
-    text-align: center;
+    background-image: url(white_wall_hash.png);  /* www.subtlepatterns.com */
+    color: #000;
+    font: 16px 'Open Sans', sans-serif; 
 }
 
-.content {
+main {
     margin: 0 auto;
+    text-align: center;
     width: 700px;
 }
 
-a {
-    color: #000;
-    text-decoration: none; 
-}
-
 h1 {
+    display: inline-block;
     font-size: 50px;
     margin: 30px 0;
 }
@@ -25,18 +22,34 @@ h2 {
     padding: 0;
 }
 
-li {
-    border: 1px #aaa dashed;
-    list-style-type: none;
-    margin-bottom: 30px;
-    padding: 30px 10px;
+.intro {
+    line-height: 2em;
 }
 
-li:hover {
-    background: #F5FFFF;
+li {
+    border: 1px #555 dashed;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 30px auto;
+    padding: 30px 20px;
 }
 
 ul {
     margin: 30px 0;
     padding: 0;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+a {
+    border-radius: 10px;
+    color: #000;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+a:hover {
+   color: #3f53eb;
 }
