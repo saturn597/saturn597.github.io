@@ -1,11 +1,12 @@
 body {
     background-image: url(white_wall_hash.png);  /* www.subtlepatterns.com */
     color: #000;
-    font: 16px 'Open Sans', sans-serif; 
+    font: 16px 'Open Sans', sans-serif;
 }
 
 main {
     margin: 0 auto;
+    padding: 20px 0 0 20px;
     text-align: center;
     width: 700px;
 }
@@ -27,15 +28,16 @@ h2 {
 }
 
 li {
-    border: 1px #555 dashed;
-    border-radius: 10px;
+    border-top: 1px #555 dashed;
     list-style-type: none;
-    margin: 30px auto;
-    padding: 30px 20px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 ul {
-    margin: 30px 0;
+    border-bottom: 1px #555 dashed;
+    font-size: 16px;
+    margin: 50px 0;
     padding: 0;
 }
 
@@ -47,9 +49,12 @@ a {
     border-radius: 10px;
     color: #000;
     font-size: 20px;
-    margin: 5px 5px;
 }
 
 a:hover {
-   color: #3f53eb;
+   color: #0066ff;
+}
+
+hr {
+    width: 200px;
 }
